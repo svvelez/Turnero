@@ -55,3 +55,45 @@ text-align: center;
     color: #43ab7c;
     text-align: center;
 }
+
+.contenido{
+    width: 100%;
+    min-height:72vh;
+    position:fixed;
+    z-index: 1200;
+    background: #fff;
+    margin-top: 14vh;
+    display: block;
+
+}
+.contenido h1{
+    color: #43ab7c;
+    text-align: center;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenido input{
+    width: 1510px;
+    height: 35px;
+    padding: 0px 10px;
+    color: black;
+    text-align: center;
+    margin: 10px 30px;
+    display: block;
+    border-radius: 35px;
+    border: 1.5px solid rgb(66, 156, 100);
+    border-right: 1.5px solid rgb(73, 151, 112);
+    border-bottom: 1.5px solid rgb(73, 187, 126);
+
+}
+
+/* bg-gray-200
+appearance-none
+ border-2
+ border-gray-200
+ rounded w-full
+  py-2 px-4
+   text-gray-700
+    leading-tight focus:outline-none
+     focus:bg-white
+     focus:border-green-500 */
