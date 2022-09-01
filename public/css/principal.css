@@ -65,181 +65,60 @@ text-align: center;
     background: #fff;
     margin-top: 14vh;
     display: block;
+}
 
+.card1{
+   margin-left: 2%;
+   border: 1px solid #43ab7c;
+   background: #43ab7c;
+   color: #fff;
+   width: 80%;
+   height: 90%;
+   margin: 2%;
 }
-.contenido {
-    color: #43ab7c;
-    text-align: center;
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.contenido .izquierda{
-  height: 70%;
-  width: 50%;
-  display: block;
-  float: left;
-  margin-top: 7vh;
 
+.card1 .card-body h2{
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 34px;
+text-align: center;
+margin-top: 5%;
 }
-.contenido .card{
-    width: 50%;
-    border: none;
-    margin-left: 10%;
-}
- .card .card-body{
-    width: 500px;
-    height: 150px;
-    border: 1px solid #43ab7c;
-    background: #43ab7c;
-    color: #fff;
-}
- .card .card-body h2{
- color: #fff;
- font-weight: bold;
- font-family: Arial, Helvetica, sans-serif;
- font-size: 34px;
- text-align: center;
- margin-top: 5vh;
-}
- .card .card-body a{
+
+.card1 .card-body a{
     background-color: #43ab7c;
     color: #fff;
     float: right;
-    margin-top: -7vh;
+    margin-top: -8vh;
     border: none;
     font-size: 26px;
 }
-.contenido .card2{
-    width: 50%;
-    border: none;
-      margin-left: 25%;
-}
-/* .contenido .derecha{
-    height: 50%;
-    width: 50%;
-    display: block;
-    float: right;
-    margin-top: 10vh;
-} */
- .card2 .card-body{
-    width: 500px;
-    height: 150px;
+
+
+.card2{
+    margin-left: 18%;
+    margin-right: 2%;
     border: 1px solid #43ab7c;
     background: #43ab7c;
     color: #fff;
-    /* margin-top: 5vh; */
-}
+    width: 80%;
+    height: 90%;
+    margin-top: 2%;
+ }
+
  .card2 .card-body h2{
- color: #fff;
- font-weight: bold;
- font-family: Arial, Helvetica, sans-serif;
- font-size: 34px;
- text-align: center;
- margin-top: 4vh;
-}
- .card2 .card-body a{
-    background-color: #43ab7c;
-    color: #fff;
-    float: right;
-    margin-top: -12vh;
-    border: none;
-    font-size: 26px;
-}
-
-
-
-
-/* .contenido .card-body a{
-    background: #43ab7c;
-    width: 90px;
-} */
-
-
-    /*   width: 50%;
-    height: 50%;
-    /* min-height:72vh; */
-    /*position:fixed;
-    z-index: 1200;
-    background: #fff;
-    margin-top: 14vh;
-    display: block; */
-
-
-
-
-
-
-
-
-
-
-/* .contenido .card mb-3{
-    width: 1510px;
-    height: 35px;
-    padding: 0px 10px;
-    color: black;
-    text-align: center;
-    margin: 10px 30px;
-    display: block;
-    border-radius: 35px;
-    border: 1.5px solid rgb(66, 156, 100);
-    border-right: 1.5px solid rgb(73, 151, 112);
-    border-bottom: 1.5px solid rgb(73, 187, 126);
-
-
-}
-
-.contenido .info-box{
-    background: #43ab7c;
-    width: 500px;
-    height: 100px;
-    display: block;
-    padding: 0px 10px;
-    margin: 10px 30px;
-    cursor: pointer;
-
-}
-.contenido .info-box .inner h4{
-    text-align: center;
-    color: #fff;
     font-weight: bold;
-    font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
-
-}
-.inner h4{
-    margin-top: 40px;
-    margin-left: 20px;
-    display: block;
-    float: right;
-}
-.contenido .info-box2{
-    background: #43ab7c;
-    width: 500px;
-    height: 100px;
-    display: block;
-    padding: 0px 10px;
-    margin: 10px 600px;
-    cursor: pointer;
-
-
-}
-
-.contenido .info-box2 .inner2 h4{
+    font-size: 34px;
     text-align: center;
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
+    margin-top: 5%;
+    }
 
-}
-.inner2 h4{
-    margin-top: 40px;
-    margin-left: 20px;
-    display: block;
-    float: right;
-    margin-top: -200px;
-}
- */
+    .card2 .card-body a{
+        background-color: #43ab7c;
+        color: #fff;
+        float: right;
+        margin-top: -6vh;
+        border: none;
+        font-size: 26px;
+    }

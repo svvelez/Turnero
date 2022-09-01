@@ -19,9 +19,6 @@
 <title>Turnero-documento</title>
 
 <body>
-{{-- <div class="atras">
-    <a class="botonatras" href="#">Atras</a>
-</div> --}}
 
 <div class="header">
     <a class="atras" href="#"><i class="fas fa-arrow-left"></i> Atras</a>
@@ -29,6 +26,40 @@
     <a class="siguiente" href="#">Inicio <i class="fas fa-solid fa-house"></i> </a>
 </div>
 
+<div class="contenido">
+    <div class="row">
+        {{--  card atención general --}}
+         <div class="col-sm-6">
+           <div class="card1">
+             <div class="card-body">
+                <h2>*ATENCIÓN GENERAL</h2>
+                <a href="#" class="btn btn-success"><i class="fas fa-solid fa-chevron-right"></i></a>
+                </div>
+           </div>
+         </div>
+
+         {{-- card preferencial --}}
+         <div class="col-sm-6">
+           <div class="card2">
+             <div class="card-body">
+                <h2>*PREFERENCIAL</h2>
+                <p>(Embarazadas, Mayores , Discap)</p>
+                <a href="#" class="btn btn-success"><i class="fas fa-solid fa-chevron-right"></i></a>
+                </div>
+           </div>
+         </div>
+
+    </div>
+
+
+</div>
+
+
+</div>
+
+</body>
+</html>
+{{--
 <div class="contenido  align-items-center">
 
 
@@ -64,29 +95,6 @@
 
 
 
-        {{-- <div class="izquierda">
-            <div class="card ">
-                <div class="card-body">
-                     <h2>*ATENCIÓN GENERAL</h2>
-                  <a href="#" class="btn btn-success"><i class="fas fa-solid fa-chevron-right"></i></a>
-                </div>
-              </div>
-        </div>
-
-        <div class="derecha">
-          <div class="card2">
-          <div class="card-body">
-          <h2>*PREFERENCIAL</h2>
-          <p>(Embarazadas, Mayores , Discap)</p>
-          <a href="#" class="btn btn-success"><i class="fas fa-solid fa-chevron-right"></i></a>
-        </div>
- --}}
     </div>
 
-</div>
-
-
-</div>
-
-</body>
-</html>
+</div> --}}
