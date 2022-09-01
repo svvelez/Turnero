@@ -58,7 +58,8 @@ text-align: center;
 
 .contenido{
     width: 100%;
-    min-height:72vh;
+    height: 25%;
+    /* min-height:72vh; */
     position:fixed;
     z-index: 1200;
     background: #fff;
@@ -85,15 +86,116 @@ text-align: center;
     border-right: 1.5px solid rgb(73, 151, 112);
     border-bottom: 1.5px solid rgb(73, 187, 126);
 
+
+}
+.numeros1{
+    width: 100%;
+    height: 80%;
+    /* min-height:72vh; */
+    position:fixed;
+    z-index: 1200;
+    background: #fff;
+    margin-top: 38vh;
+    display: block;
+    text-align: center;
+}
+.numeros2{
+    width: 100%;
+    height: 80%;
+    /* min-height:72vh; */
+    position:fixed;
+    z-index: 1200;
+    background: #fff;
+    margin-top: 3vh;
+    display: block;
+    text-align: center;
+}
+.numeros3{
+    width: 100%;
+    height: 80%;
+    /* min-height:72vh; */
+    position:fixed;
+    z-index: 1200;
+    background: #fff;
+    margin-top: 13vh;
+    display: block;
+    text-align: center;
+}
+.numeros4{
+    width: 100%;
+    height: 80%;
+    /* min-height:72vh; */
+    position:fixed;
+    z-index: 1200;
+    background: #fff;
+    margin-top: 23vh;
+    display: block;
+    text-align: center;
+}
+.numeros1 input{
+
+    width: 110px;
+    height: 60px;
+    border-radius: 35px;
+    border: 2px solid rgb(66, 156, 100);
+    border-right: 2px solid rgb(73, 151, 112);
+    border-bottom: 2px solid rgb(73, 187, 126);
+    font-weight: bold;
+
+
+}
+.numeros2 input{
+
+    width: 110px;
+    height: 60px;
+    border-radius: 35px;
+    border: 2px solid rgb(66, 156, 100);
+    border-right: 2px solid rgb(73, 151, 112);
+    border-bottom: 2px solid rgb(73, 187, 126);
+    font-weight: bold;
+}
+.numeros3 input{
+
+    width: 110px;
+    height: 60px;
+    border-radius: 35px;
+    border: 2px solid rgb(66, 156, 100);
+    border-right: 2px solid rgb(73, 151, 112);
+    border-bottom: 2px solid rgb(73, 187, 126);
+    font-weight: bold;
+}
+.numeros4 input{
+
+    width: 110px;
+    height: 60px;
+    border-radius: 35px;
+    border: 2px solid rgb(66, 156, 100);
+    border-right: 2px solid rgb(73, 151, 112);
+    border-bottom: 2px solid rgb(73, 187, 126);
+    font-weight: bold;
+}
+.generarturno{
+    width: 100%;
+    height: 75%;
+    /* min-height:72vh; */
+    position:fixed;
+    z-index: 1200;
+    background: #fff;
+    margin-top: 58vh;
+    display: block;
+    text-align: center;
+}
+.generarturno button{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1.5px solid rgb(66, 156, 100);
+    border-right: 1.5px solid rgb(73, 151, 112);
+    border-bottom: 1.5px solid rgb(73, 187, 126);
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(66, 156, 100);;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* bg-gray-200
-appearance-none
- border-2
- border-gray-200
- rounded w-full
-  py-2 px-4
-   text-gray-700
-    leading-tight focus:outline-none
-     focus:bg-white
-     focus:border-green-500 */
+

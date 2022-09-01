@@ -33,6 +33,27 @@
     <input type="text" name="numerodocumento">
 </div>
 
+<div class="numeros1">
+    <input class="btn btn-success" type="button" value="1">
+    <input class="btn btn-success" type="button" value="2">
+    <input class="btn btn-success" type="button" value="3">
+<div class="numeros2">
+    <input type="button" value="4">
+    <input type="button" value="5">
+    <input type="button" value="6">
+</div>
+<div class="numeros3">
+    <input type="button" value="7">
+    <input type="button" value="8">
+    <input type="button" value="9">
+</div>
+<div class="numeros4">
+    <input type="button" value="0">
+</div>
+
+<div class="generarturno">
+    <button>Generar turno</button>
+</div>
 
 
 </body>
