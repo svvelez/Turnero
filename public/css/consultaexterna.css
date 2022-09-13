@@ -151,7 +151,7 @@ text-align: center;
 
      .card4{
         margin-left: 18%;
-        border: 1px solid #43ab7c;
+        border: 1px solid rgba(255, 255, 255, 0.5);
         background: #43ab7c;
         color: #fff;
         width: 80%;

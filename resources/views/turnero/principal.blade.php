@@ -21,7 +21,7 @@
 <body>
 
 <div class="header">
-    <a class="atras" href="#"><i class="fas fa-arrow-left"></i> Atras</a>
+    <a class="atras" href="{{route('turnero.index')}}"><i class="fas fa-arrow-left"></i> Atras</a>
     <img class="imagen" src="logo.jpg" width="150px" height="80px">
     <a class="siguiente" href="#">Inicio <i class="fas fa-solid fa-house"></i> </a>
 </div>
@@ -31,9 +31,10 @@
         {{--  card atención general --}}
          <div class="col-sm-6">
            <div class="card1">
-             <div class="card-body">
+             <div class="card-body input-group">
+
                 <h2>*ATENCIÓN GENERAL</h2>
-                <a href="#" class="btn btn-success"><i class="fas fa-solid fa-chevron-right"></i></a>
+                <a href="{{route('general')}}" class="btn btn-success" ><i class="fas fa-solid fa-chevron-right"></i></a>
                 </div>
            </div>
          </div>
@@ -44,7 +45,7 @@
              <div class="card-body">
                 <h2>*PREFERENCIAL</h2>
                 <p>(Embarazadas, Mayores , Discap)</p>
-                <a href="#" class="btn btn-success"><i class="fas fa-solid fa-chevron-right"></i></a>
+                <a href="{{route('general')}}" class="btn btn-success"><i class="fas fa-solid fa-chevron-right"></i></a>
                 </div>
            </div>
          </div>
@@ -59,42 +60,3 @@
 
 </body>
 </html>
-{{--
-<div class="contenido  align-items-center">
-
-
-    <div class="row">
-        <div class="col-xs-12 col-xm-12 col-md-12 col-lg-12">
-
-     <div class="row">
-
-        <div class="col-lg-6 col-xs-6">
-            <div class="card ">
-                <div class="card-body">
-                  <h2>*ATENCIÓN GENERAL</h2>
-                  <a href="#" class="btn btn-success"><i class="fas fa-solid fa-chevron-right"></i></a>
-                </div>
-              </div>
-        </div>
-
-        <div class="col-lg-6 col-xs-6">
-                <div class="card2">
-                <div class="card-body">
-                   <h2>*PREFERENCIAL</h2>
-                  <p>(Embarazadas, Mayores , Discap)</p>
-                  <a href="#" class="btn btn-success"><i class="fas fa-solid fa-chevron-right"></i></a>
-                </div>
-              </div>
-        </div>
-
-
-            </div>
-
-        </div>
-    </div>
-
-
-
-    </div>
-
-</div> --}}

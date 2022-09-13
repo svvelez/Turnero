@@ -1,18 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\http\Controllers\TurneroController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+
 
 Route::get('/', function () {
-    return view('principal');
+    return view('turnero.general');
 });
+
+ Route::resource('turnero',TurneroController::class);
+ Route::get('general', 'App\http\TurneroController@generall');
+
+Route::get('/general', [TurneroController::class,'general'])->name('general');
+Route::get('/consultaexterna', [TurneroController::class,'consultaexterna'])->name('consultaexterna');
+
