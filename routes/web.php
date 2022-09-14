@@ -6,7 +6,7 @@ use App\http\Controllers\TurneroController;
 
 
 Route::get('/', function () {
-    return view('turnero.general');
+    return view('turnero.index');
 });
 
  Route::resource('turnero',TurneroController::class);
